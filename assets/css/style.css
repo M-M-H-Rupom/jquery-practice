@@ -1,0 +1,11 @@
+.hidden_span{
+    display: none;
+}
+.main{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text_color{
+    color: red;
+}
