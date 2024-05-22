@@ -3,6 +3,51 @@ add_shortcode( 'jq_learning', 'jq_learning_callback' );
 function jq_learning_callback(){
     ob_start();
     ?>
+    <div class="slice">
+        <div class="item"> item 1 </div>
+        <div class="item"> item 2</div>
+        <div class="item3"> item 3</div>
+        <div class="item4"> item 4</div>
+    </div>
+    <div class="contents">
+        <p> Lorem ipsum dolor sit.</p>
+    </div>
+    <!-- <ul>
+        <li> list item</li>
+        <li> list item</li>
+        <li> list item</li>
+        <li class='start'> list item</li>
+        <li> list item</li>
+        <li> list item</li>
+    </ul>
+    <div class="item">item</div>
+    <div class="item">item</div>
+    <div class="item">item</div> -->
+    <!-- <div class="not">
+        <p>Lorem ipsum dolor sit.</p>
+        <p class="not_in">Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+    </div> -->
+    <!-- <div class="parent">
+        <div class="parent_chile1">
+            <div class="child1">child 1</div>
+        </div>
+        <div class="child2"> child 2</div>
+        <div class="child3"> child 3</div>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum <span>dolor sit amet</span></p>
+    <p class='filter'>Lorem ipsum dolor sit amet.</p> -->
+    <!-- <ul>
+        <li class="item" id="one">Coffee Lorem ipsum dolor sit.</li>
+        <li class="item" id="two">Milk Lorem, ipsum dolor.</li>
+        <li class="item">Soda Lorem, ipsum.</li>
+    </ul>
+    <button>each list item</button> -->
+    <!-- <p class="intro">My name is R</p>
+    <p class="intro">I live in rangpur.</p>
+    <p class="intro">I love Rangpur</p>
+    <p class="intro">My best friend is ss</p> -->
     <!-- <p class="property"> Lorem ipsum dolor sit amet consectetur.</p>
     <button class='add_remove_prop'> Add remove property </button> -->
     <!-- <p class="show_append_data"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, asperiores?</p>

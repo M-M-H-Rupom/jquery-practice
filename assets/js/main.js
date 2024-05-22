@@ -1,6 +1,64 @@
 // alert('hello')
 ;(function($){
-    
+    $('.item3,.item4').css({
+        'color' : 'red'
+    })
+    // $('.item').slice(0,2).remove();
+    // $('.contents').contents().filter('p').wrap('<b></b>')
+    // let not_in = $('p').not('.not_in').css({
+    //     'color' : 'red'
+    // });
+    // $('li').last().css({
+    //     'color' : 'red'
+    // })
+    // $('.item').first().css({
+    //     'color' : 'green'
+    // })
+    // $('.start').prevAll().css({
+    //     'border' : '1px solid black'
+    // })
+    // $('.start').prev().css({
+    //     'border' : '1px solid #eb4d4b'
+    // })
+    // $('.start').nextAll().css({
+    //     'border' : '1px solid #f9ca24'
+    // })
+    // $('.start').next().css({
+    //     'border' : '1px solid #22a6b3'
+    // })
+    // $('.start').siblings().css({
+    //     'border' : '1px solid black'
+    // })
+    // alert(not_in)
+    // $('.child1').parent().css({
+    //     'border' : '1px solid red'
+    // })
+    // $('.child1').parents().css({
+    //     'border' : '1px solid red'
+    // })
+    // if($('.child').parent().is('.parent')){
+    //     alert('hello child')
+    // }
+    // $('p').has('span').css({
+    //     'background' : 'gray'
+    // })
+    // $('p').find('span').css({
+    //     'color' : 'white'
+    // })
+    // $('p').filter('.filter').css({
+    //     'background' : 'red'
+    // })
+    // let items = []
+    // $(document).on('click', 'button', function(){
+    //     $.each($('.item'), function (index, Element) { 
+    //         alert(index)
+    //         items.push($(Element).text())
+    //         items.push($(Element).attr('id') )
+    //     });
+    //     console.log(items);
+    // });
+    // $(".intro").not(":eq(3)").css("background-color", "yellow");
+
     // $(document).on('click','.add_remove_prop',function(){
     //     $('.property').prop('color','red')
     //     let prop = $('.property').prop('color')
