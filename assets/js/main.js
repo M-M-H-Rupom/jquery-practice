@@ -1,8 +1,13 @@
 // alert('hello')
 ;(function($){
-    $('.item3,.item4').css({
-        'color' : 'red'
-    })
+
+
+    
+
+
+    // $('.item3,.item4').css({
+    //     'color' : 'red'
+    // })
     // $('.item').slice(0,2).remove();
     // $('.contents').contents().filter('p').wrap('<b></b>')
     // let not_in = $('p').not('.not_in').css({
