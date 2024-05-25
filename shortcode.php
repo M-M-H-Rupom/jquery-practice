@@ -3,7 +3,14 @@
 add_shortcode( 'js_learning', 'js_learning_callback' );
 function js_learning_callback(){
     ob_start();
-    echo 'hello';
+    ?>
+    <div class="list_data">
+
+    </div>
+    <div class="display_date">
+        
+    </div>
+    <?php
     return ob_get_clean();
 }
 

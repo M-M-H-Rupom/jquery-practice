@@ -1,5 +1,83 @@
 // JS
 
+// js object 
+// let person = {}
+// person.name = "R",
+// person.age = 23
+// person.home = "Rangpur"
+// console.log(person);
+
+// Constructor function for objects
+// function Person(fname,lname,age,home){
+//     this.firstname = fname, 
+//     this.lastname = lname, 
+//     this.age = age,
+//     this.home = home
+// }
+// let person_1 = new Person('s','k',32,'rangpur')
+// let person_2 = new Person('R','H',23,'rangpur')
+// console.log(person_1);
+// console.log(person_2);
+
+
+// js date 
+
+// let date = new Date()
+// date.setMonth(1)
+// function days_in_month(month, year) {
+//     return new Date(year, month, 0).getDate();
+// }
+// let month = date.getMonth() + 1;
+// let year = date.getFullYear();
+// let monthval = 0
+//  console.log(
+//     monthval = days_in_month(month,year)
+//  );
+//  console.log(monthval);
+// date.setDate(1)
+// const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+// let day_data = date.getDay()
+// let a_day = date.getDate()
+// for(let d = day_data; d <= 6 ; d++){
+//     console.log(days[d]);
+// }
+// console.log(date);
+// console.log(days[day_data]);
+// let display_date = `<ul>`
+// for(let dd = a_day; dd <= monthval ; dd++){
+//     let all_day = date.getDay(date.setDate(dd));
+//     display_date += `<li> ${dd} , ${days[all_day]}</li>`
+// }
+// display_date += `</ul>`
+// ;(function($){
+//     $('.display_date').html(display_date);
+// })(jQuery)
+
+// let n_date = new Date()
+// let get_minute = n_date.getMinutes()
+// console.log(get_minute);
+
+// let date = new Date();
+// let get_minute = date.getMinutes()
+// console.log(get_minute.toString());
+
+// js math 
+
+// js math 
+// let num = 4.4
+// let floor = Math.floor(num)
+// let ceil = Math.ceil(num)
+// let round = Math.round(num)
+// let trunc = Math.trunc(round)
+// let pow = Math.pow(3,2)
+// let sqrt = Math.sqrt(64)
+// let abs = Math.abs(-5.6)
+// let min = Math.min(2,6,8,12,6)
+// let max = Math.max(2,6,8,12,6)
+// console.log(max);
+
+
+
 // string
 
 // string length 
@@ -66,8 +144,52 @@
 // console.log(split_text);
 // console.log(split_text2);
 
+// string indexof lastindexof 
+// let text = "Please find where find";
+// let index = text.indexOf("find");
+// let index_last = text.lastIndexOf("find");
+// console.log(index);
+// console.log(index_last);
 
+// string search 
+// let str = "hello how are you hello"
+// let str_search = str.search('how')
+// console.log(str_search);
 
+// string match and matchAll 
+// let text1 = 'how are you , how old are you'
+// let match = text1.match('how')
+// let matchAll = text1.matchAll(/how/g)
+// let text = match.toString()
+// console.log(text);
+// console.log(match);
+// let arr_form = Array.from(matchAll)
+// console.log(arr_form);
+
+// string include
+// let text = 'hello world , welcome'
+// let include = text.includes('he',0)
+// console.log(include);
+
+// string startwith and endwith
+// let text2 = 'hello friend'
+// let startwith = text2.startsWith('hello')
+// let endwith = text2.endsWith('friend')
+// console.log(startwith);
+// console.log(endwith);
+
+// template string 
+// let head = "template string"
+// let temp = ["template strings", "javascript"];
+// let html = `<h2>${head}</h2><ul>`;
+// let list = `<ul>`
+// for (let x of temp) {
+//   list += `<li>${x}</li>`;
+// }
+// list += `</ul>`
+// ;(function($){
+//     $('.list_data').html(list)
+// })(jQuery)
 
 //   array map
 // const numbers1 = [45, 4, 9, 16, 25];
